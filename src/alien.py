@@ -11,7 +11,7 @@ class Alien(Sprite):
         self.screen = screen
 
         # Загружаем пришельца
-        self.image = pygame.image.load(r'images/alien_realistic.bmp')
+        self.image = pygame.image.load(r'./images/alien_realistic.bmp')
         self.rect = self.image.get_rect()
 
         # Определяем координаты пришельца(левый верхний угол)

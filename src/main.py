@@ -18,7 +18,7 @@ def run_game():
     screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
     background = ai_settings.background
     screen.blit(background, (0, 0))
-    icon = pygame.image.load(r'images/game-logo.ico')
+    icon = pygame.image.load(r'./images/game-logo.ico')
     pygame.display.set_icon(icon)
     pygame.display.set_caption('Alien invasion')
     # Создаем корабль, пули и пришельцев

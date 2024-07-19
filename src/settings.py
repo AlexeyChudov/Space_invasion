@@ -9,7 +9,7 @@ class Settings():
         info = pygame.display.Info()
         self.screen_width = info.current_w
         self.screen_height = info.current_h
-        self.background = pygame.image.load(r'images\bg.bmp')
+        self.background = pygame.image.load('./images/bg.bmp')
         self.background = pygame.transform.smoothscale(self.background, (self.screen_width, self.screen_height))
 
         # Параметры корабля
